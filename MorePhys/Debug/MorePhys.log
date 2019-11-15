@@ -1,0 +1,15 @@
+﻿Source.obj : error LNK2001: unresolved external symbol "public: virtual class b2Shape * __thiscall b2PolygonShape::Clone(class b2BlockAllocator *)const " (?Clone@b2PolygonShape@@UBEPAVb2Shape@@PAVb2BlockAllocator@@@Z)
+Source.obj : error LNK2001: unresolved external symbol "public: virtual int __thiscall b2PolygonShape::GetChildCount(void)const " (?GetChildCount@b2PolygonShape@@UBEHXZ)
+Source.obj : error LNK2019: unresolved external symbol "public: void __thiscall b2PolygonShape::SetAsBox(float,float)" (?SetAsBox@b2PolygonShape@@QAEXMM@Z) referenced in function _main
+Source.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall b2PolygonShape::TestPoint(struct b2Transform const &,struct b2Vec2 const &)const " (?TestPoint@b2PolygonShape@@UBE_NABUb2Transform@@ABUb2Vec2@@@Z)
+Source.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall b2PolygonShape::RayCast(struct b2RayCastOutput *,struct b2RayCastInput const &,struct b2Transform const &,int)const " (?RayCast@b2PolygonShape@@UBE_NPAUb2RayCastOutput@@ABUb2RayCastInput@@ABUb2Transform@@H@Z)
+Source.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall b2PolygonShape::ComputeAABB(struct b2AABB *,struct b2Transform const &,int)const " (?ComputeAABB@b2PolygonShape@@UBEXPAUb2AABB@@ABUb2Transform@@H@Z)
+Source.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall b2PolygonShape::ComputeMass(struct b2MassData *,float)const " (?ComputeMass@b2PolygonShape@@UBEXPAUb2MassData@@M@Z)
+Source.obj : error LNK2019: unresolved external symbol "public: class b2Fixture * __thiscall b2Body::CreateFixture(struct b2FixtureDef const *)" (?CreateFixture@b2Body@@QAEPAVb2Fixture@@PBUb2FixtureDef@@@Z) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "public: class b2Fixture * __thiscall b2Body::CreateFixture(class b2Shape const *,float)" (?CreateFixture@b2Body@@QAEPAVb2Fixture@@PBVb2Shape@@M@Z) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall b2World::b2World(struct b2Vec2 const &)" (??0b2World@@QAE@ABUb2Vec2@@@Z) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "public: __thiscall b2World::~b2World(void)" (??1b2World@@QAE@XZ) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "public: class b2Body * __thiscall b2World::CreateBody(struct b2BodyDef const *)" (?CreateBody@b2World@@QAEPAVb2Body@@PBUb2BodyDef@@@Z) referenced in function _main
+Source.obj : error LNK2019: unresolved external symbol "public: void __thiscall b2World::Step(float,int,int)" (?Step@b2World@@QAEXMHH@Z) referenced in function _main
+C:\Users\Josh\source\cppSource\PhysTesting\ExternalLibs\Box2D\lib\Box2D.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+C:\Users\Josh\source\cppSource\MorePhys\Debug\MorePhys.exe : fatal error LNK1120: 13 unresolved externals

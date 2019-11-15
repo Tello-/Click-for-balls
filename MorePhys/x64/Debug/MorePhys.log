@@ -1,0 +1,3 @@
+﻿  Source.cpp
+  C:\Users\Josh\source\cppSource\MorePhys\MorePhys\Source.cpp(16) : warning C6262: Function uses '104540' bytes of stack:  exceeds /analyze:stacksize '16388'.  Consider moving some data to heap.
+  MorePhys.vcxproj -> C:\Users\Josh\source\cppSource\MorePhys\x64\Debug\MorePhys.exe
